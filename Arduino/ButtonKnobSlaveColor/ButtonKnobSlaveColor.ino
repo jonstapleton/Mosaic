@@ -2,12 +2,12 @@
 //Button Tile
 #include <Wire.h>
 
-int address = 10;  // must have unique address
+int address = 19;  // must have unique address
 int channel = 1;
 
 //SINUS FADE
 int value, value2, value3 ;
-int ledpin = 22;                           // light connected to digital pin 10
+int ledpin = 22;                           
 int ledpin2 = 4; 
 int ledpin3 = 3;
 long time=0;

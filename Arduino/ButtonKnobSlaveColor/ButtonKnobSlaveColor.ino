@@ -2,7 +2,7 @@
 //Button Tile
 #include <Wire.h>
 
-int address = 19;  // must have unique address
+int address = 25;  // must have unique address
 int channel = 1;
 
 //SINUS FADE

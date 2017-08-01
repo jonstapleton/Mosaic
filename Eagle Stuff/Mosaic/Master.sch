@@ -3613,10 +3613,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="3.175" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="2.54" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="4.445" y1="-1.27" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
-<pad name="1" x="-3.81" y="0" drill="1.016" diameter="1.9304" rot="R90"/>
-<pad name="2" x="-1.27" y="0" drill="1.016" diameter="1.9304" rot="R90"/>
-<pad name="3" x="1.27" y="0" drill="1.016" diameter="1.9304" rot="R90"/>
-<pad name="4" x="3.81" y="0" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="1" x="-3.81" y="0" drill="1.016" diameter="1.6764" shape="octagon" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1.016" diameter="1.6764" shape="octagon" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="1.016" diameter="1.6764" shape="octagon" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1.016" diameter="1.6764" shape="octagon" rot="R90"/>
 <text x="-5.1562" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
@@ -3696,15 +3696,15 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="4.445" y1="1.27" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="3.81" y1="-0.635" x2="4.445" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="5.715" y1="-1.27" x2="4.445" y2="-1.27" width="0.1524" layer="21"/>
-<pad name="1" x="-5.08" y="0" drill="1.016" diameter="1.9304" shape="octagon" rot="R90"/>
-<pad name="2" x="-2.54" y="0" drill="1.016" diameter="1.9304" shape="octagon" rot="R90"/>
-<pad name="3" x="0" y="0" drill="1.016" diameter="1.9304" shape="octagon" rot="R90"/>
-<pad name="4" x="2.54" y="0" drill="1.016" diameter="1.9304" shape="octagon" rot="R90"/>
-<pad name="5" x="5.08" y="0" drill="1.016" diameter="1.9304" shape="octagon" rot="R90"/>
+<pad name="1" x="-5.08" y="0" drill="1.016" diameter="1.6764" shape="octagon" rot="R90"/>
+<pad name="2" x="-2.54" y="0" drill="1.016" diameter="1.6764" shape="octagon" rot="R90"/>
+<pad name="3" x="0" y="5.08" drill="1.016" diameter="1.6764" shape="octagon" rot="R90"/>
+<pad name="4" x="2.54" y="0" drill="1.016" diameter="1.6764" shape="octagon" rot="R90"/>
+<pad name="5" x="5.08" y="0" drill="1.016" diameter="1.6764" shape="octagon" rot="R90"/>
 <text x="-6.4262" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-6.35" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="4.826" x2="0.254" y2="5.334" layer="51"/>
 <rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
 <rectangle x1="-5.334" y1="-0.254" x2="-4.826" y2="0.254" layer="51"/>
 <rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
@@ -3950,39 +3950,39 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <library name="Teensy_3_and_LC_Series_Boards_v1.4">
 <packages>
 <package name="TEENSY_3.0-3.2&amp;LC_OUTER_ROW">
-<pad name="GND" x="-7.62" y="16.51" drill="0.9652" diameter="1.9304"/>
-<pad name="0" x="-7.62" y="13.97" drill="0.9652" diameter="1.9304"/>
-<pad name="1" x="-7.62" y="11.43" drill="0.9652" diameter="1.9304"/>
-<pad name="2" x="-7.62" y="8.89" drill="0.9652" diameter="1.9304"/>
-<pad name="3" x="-7.62" y="6.35" drill="0.9652" diameter="1.9304"/>
-<pad name="4" x="-7.62" y="3.81" drill="0.9652" diameter="1.9304"/>
-<pad name="5" x="-7.62" y="1.27" drill="0.9652" diameter="1.9304"/>
-<pad name="6" x="-7.62" y="-1.27" drill="0.9652" diameter="1.9304"/>
-<pad name="7" x="-7.62" y="-3.81" drill="0.9652" diameter="1.9304"/>
-<pad name="8" x="-7.62" y="-6.35" drill="0.9652" diameter="1.9304"/>
-<pad name="9" x="-7.62" y="-8.89" drill="0.9652" diameter="1.9304"/>
-<pad name="10" x="-7.62" y="-11.43" drill="0.9652" diameter="1.9304"/>
-<pad name="11" x="-7.62" y="-13.97" drill="0.9652" diameter="1.9304"/>
-<pad name="12" x="-7.62" y="-16.51" drill="0.9652" diameter="1.9304"/>
-<pad name="VBAT" x="-5.08" y="-16.51" drill="0.9652" diameter="1.9304"/>
-<pad name="3.3V1" x="-2.54" y="-16.51" drill="0.9652" diameter="1.9304"/>
-<pad name="GND1" x="0" y="-16.51" drill="0.9652" diameter="1.9304"/>
-<pad name="PGM" x="2.54" y="-16.51" drill="0.9652" diameter="1.9304"/>
-<pad name="RESET/DAC" x="5.08" y="-16.51" drill="0.9652" diameter="1.9304"/>
-<pad name="13" x="7.62" y="-16.51" drill="0.9652" diameter="1.9304"/>
-<pad name="14/A0" x="7.62" y="-13.97" drill="0.9652" diameter="1.9304"/>
-<pad name="15/A1" x="7.62" y="-11.43" drill="0.9652" diameter="1.9304"/>
-<pad name="16/A2" x="7.62" y="-8.89" drill="0.9652" diameter="1.9304"/>
-<pad name="17/A3" x="7.62" y="-6.35" drill="0.9652" diameter="1.9304"/>
-<pad name="18/A4" x="7.62" y="-3.81" drill="0.9652" diameter="1.9304"/>
-<pad name="19/A5" x="7.62" y="-1.27" drill="0.9652" diameter="1.9304"/>
-<pad name="20/A6" x="7.62" y="1.27" drill="0.9652" diameter="1.9304"/>
-<pad name="21/A7" x="7.62" y="3.81" drill="0.9652" diameter="1.9304"/>
-<pad name="22/A8" x="7.62" y="6.35" drill="0.9652" diameter="1.9304"/>
-<pad name="23/A9" x="7.62" y="8.89" drill="0.9652" diameter="1.9304"/>
-<pad name="3.3V" x="7.62" y="11.43" drill="0.9652" diameter="1.9304"/>
-<pad name="AGND" x="7.62" y="13.97" drill="0.9652" diameter="1.9304"/>
-<pad name="VIN" x="7.62" y="16.51" drill="0.9652" diameter="1.9304"/>
+<pad name="GND" x="-7.62" y="16.51" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="0" x="-7.62" y="13.97" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="1" x="-7.62" y="11.43" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="-7.62" y="8.89" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="3" x="-7.62" y="6.35" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="4" x="-7.62" y="3.81" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="5" x="-7.62" y="1.27" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="6" x="-7.62" y="-1.27" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="7" x="-7.62" y="-3.81" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="8" x="-7.62" y="-6.35" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="9" x="-7.62" y="-8.89" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="10" x="-7.62" y="-11.43" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="11" x="-7.62" y="-13.97" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="12" x="-7.62" y="-16.51" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="VBAT" x="-5.08" y="-16.51" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="3.3V1" x="-2.54" y="-16.51" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="GND1" x="0" y="-16.51" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="PGM" x="2.54" y="-16.51" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="RESET/DAC" x="5.08" y="-16.51" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="13" x="7.62" y="-16.51" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="14/A0" x="7.62" y="-13.97" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="15/A1" x="7.62" y="-11.43" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="16/A2" x="7.62" y="-8.89" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="17/A3" x="7.62" y="-6.35" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="18/A4" x="7.62" y="-3.81" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="19/A5" x="7.62" y="-1.27" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="20/A6" x="7.62" y="1.27" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="21/A7" x="7.62" y="3.81" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="22/A8" x="7.62" y="6.35" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="23/A9" x="7.62" y="8.89" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="3.3V" x="7.62" y="11.43" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="AGND" x="7.62" y="13.97" drill="0.9652" diameter="1.6764" shape="octagon"/>
+<pad name="VIN" x="7.62" y="16.51" drill="0.9652" diameter="1.6764" shape="octagon"/>
 <wire x1="-8.89" y1="17.78" x2="8.89" y2="17.78" width="0.127" layer="51"/>
 <wire x1="8.89" y1="17.78" x2="8.89" y2="-17.78" width="0.127" layer="51"/>
 <wire x1="8.89" y1="-17.78" x2="-8.89" y2="-17.78" width="0.127" layer="51"/>
